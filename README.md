@@ -1,4 +1,4 @@
-#Flappy birds demo program 
+## Flappy birds demo program 
 ported by darkspr1te to test graphics routines, touch, sound ,sdcard and eeprom. 
 video https://www.youtube.com/watch?v=LzjbU5s8YZI 
 
@@ -12,12 +12,13 @@ or original function here https://github.com/makerbase-mks/MKS-TFT
 bugs :-
 yes, next question bwana, 
 
-#Flashing guide
+##Flashing guide
 any platformio support device (dont forget to adjust this folders platformio.ini for your upload protocol etc)
 You can flash using most JTAG adapters or via UART using FTDI adaper or buspirate 
 https://z4ziggy.wordpress.com/2018/09/29/programming-stm32-with-buspirate-v3/
- A9 = PA9 or Seiral 1 on Wifi (TXD,RXD)
- A10 = PA10 or Seiral 1 on Wifi (TXD,RXD)
+ A9 = PA9 or Serial 1 on Wifi (TXD,RXD)
+
+ A10 = PA10 or Serial 1 on Wifi (TXD,RXD)
 
  for best results use a jtag/stlink/swd device for realtime memory debugging and proper segfault handling 
 
@@ -27,12 +28,12 @@ guide and PC software
 https://github.com/darkspr1te/MKSTFT_Marlin_Touch/tree/master/TFT35_V2%20Bootloader%20fix
 Note, Do not use bootloader from MarlinTFT github, Only from MKSTFTV4 github
 
-#MKS TFT basic bring up for platformio/vscode
+## MKS TFT basic bring up for platformio/vscode
     Just build and flash to device via stlink or uart method (first build will be slow as platformio downloads required libs in background) 
 	Does not require use of bootloader  
 	inital script work+bugfixes  @delwinbest (https://github.com/delwinbest) 
 	
-	*Whats working
+	## Whats working
 	.Calibrate TouchTFT(with calibration example code, simple)
 	.TFT Via UTFT
 	.SD Card via STM libs or arduino 
