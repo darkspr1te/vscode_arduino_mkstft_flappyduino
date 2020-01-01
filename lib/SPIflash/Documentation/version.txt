@@ -1,0 +1,14 @@
+Version:
+	1.0	11 Jan 2014  -  initial release
+	1.01	13 Jan 2014  -  included the correct FlashUploader
+	1.1	08 Jun 2014  -	added support for three MXIC flash chips
+	1.11	02 Oct 2014  -  fixed a typo in the FlashUploader chip list
+				updated FlashUploader to v1.1
+				updated the SPIflash_FlashUploader example sketches
+				reduced default SPI speed from 20MHz to 13MHz for chipKit due to some instability issues
+	1.2	01 Sep 2015  -	added support W25Q256FV chips from Winbond
+	1.3	02 Sep 2019  -  added support for audio samples
+				updated FlashUploader to v1.2
+				fixed a small bug in fileOpen()
+				added option to restrict access to the file system for time critical operations
+				fixed some string conversion warnings
