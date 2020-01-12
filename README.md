@@ -29,15 +29,18 @@ https://github.com/darkspr1te/MKSTFT_Marlin_Touch/tree/master/TFT35_V2%20Bootloa
 Note, Do not use bootloader from MarlinTFT github, Only from MKSTFTV4 github
 
 ## MKS TFT basic bring up for platformio/vscode
-    Just build and flash to device via stlink or uart method (first build will be slow as platformio downloads required libs in background) 
+    Just build and flash to device via stlink or uart method 
+	(first build will be slow as platformio downloads required libs in background) 
 	Does not require use of bootloader  
 	inital script work+bugfixes  @delwinbest (https://github.com/delwinbest) 
 	
-	## Whats working
+	 Whats working
+
 	.Calibrate TouchTFT(with calibration example code, simple)
 	.TFT Via UTFT
 	.SD Card via STM libs or arduino 
 	.USART1/2/3 
+	.SPIFlash
 	.Image loading from SPI Flash, BMP's , C array's  etc
 	.settings storage via i2c eeprom
 	.speaker  (now with working PWM+DMA audio) 
